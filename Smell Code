@@ -1,0 +1,6 @@
+int gasSensor = 0; // select input pin for gasSensor
+int val = 0; // variable to store the value coming from the sensor
+
+void setup() {
+Serial.begin(9600);
+}
